@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.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,
 });
 
 app.post('/draw', async (req, res) => {
